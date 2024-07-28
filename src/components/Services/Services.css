@@ -1,0 +1,60 @@
+.services {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px; /* Increased padding */
+  width: 300px; /* Increased width */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+  width: 70px; /* Increased size */
+  height: 70px; /* Increased size */
+  margin: 0 auto 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; /* Ensure icon is centered */
+}
+
+.icon1 {
+  background-image: url('../../assets/web-dev.png');
+}
+.icon2 {
+  background-image: url('../../assets/web-dev.png');
+}
+.icon3 {
+  background-image: url('../../assets/web-dev.png');
+}
+.icon4 {
+  background-image: url('../../assets/web-dev.png');
+}
+.icon5 {
+  background-image: url('../../assets/app-dev.png');
+}
+.icon6 {
+  background-image: url('../../assets/web-dev.png');
+}
+.icon7 {
+  background-image: url('../../assets/web-dev.png');
+}
+.icon8 {
+  background-image: url('../../assets/web-dev.png');
+}

@@ -1,0 +1,83 @@
+/* Existing styles */
+
+.app-banner {
+  background: url('../../assets/images/map-bg.png') no-repeat center center;
+  background-size: cover;
+  background-color: #161c2d;
+  position: relative;
+  padding: 100px 0;
+  color: white;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  z-index: 2;
+}
+
+.app-container-title {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+}
+
+.app-container-title h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.app-container-title button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.app-container-right-thumbnail {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.app-container-right-bg-shape {
+  position: relative;
+}
+
+.round-image {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 5px solid #fff;
+}
+
+/* New styles */
+
+.services-section {
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .app-container-right-thumbnail {
+    justify-content: center;
+  }
+}
