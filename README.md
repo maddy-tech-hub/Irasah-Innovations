@@ -26,7 +26,7 @@ This project is a website footer component built using React and styled with CSS
 
     ```bash
     git clone https://github.com/yourusername/Irasah-Innovations.git
-    cd yourrepository
+    cd Irasah-Innovations
     ```
 
 2. Install the dependencies:
