@@ -21,7 +21,7 @@ const config = {
     },
     email: {
       title: "Email Address",
-      address: "sahasras2019@gmail.com",
+      address: "hr@irasah.com",
       website: "www.Irasah.com"
     },
     instagram: {
